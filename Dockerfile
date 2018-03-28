@@ -27,11 +27,6 @@ EXPOSE 3000
 
 CMD ["./uptick.sh"]
 
-#CMD ["/usr/bin/supervisord -c supervisord.conf"]
 
-#CMD [ "nginx", "-g", "daemon off;", "&&", "npm", "start" ]
-
-#EXPOSE 3000
-#CMD [ "npm", "start"]
 
 
